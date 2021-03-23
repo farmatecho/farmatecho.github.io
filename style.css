@@ -1,0 +1,21 @@
+#logo-text {
+	font-family: Garamond;
+	font-size: 75px;
+	font-weight: bold;
+	color: #4054fc;
+	margin-left: 20px;
+	display: inline;
+}
+
+#logo-img {
+	width: 75px;
+}
+
+#search {
+	position: absolute;
+	right: 0px;
+}
+
+#home-link {
+	text-decoration: none;
+}
