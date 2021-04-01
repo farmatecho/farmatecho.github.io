@@ -7,17 +7,19 @@
 		<script src="https://kit.fontawesome.com/54c57c5395.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<a href="/" id="home-link">
-			<img src="logo.png" id="logo-img"/>
-			<p id="logo-text">Farmatecho</p>
-			
+		<header>
+			<a href="/" id="home-link">
+				<img src="logo.png" id="logo-img"/>
+				<p id="logo-text">Farmatecho</p>
+			</a>
 			<span id="search">
-			<input placeholder="Busca" id="search-bar"/>
-			<button><i class="fas fa-search"></i></button>
-		</span>
-		</a>
+				<input placeholder="Busca" id="search-bar"/>
+				<button id="search-button"><i class="fas fa-search"></i></button>
+			</span>
+		</header>
 		<hr/>
 		<div id="products"></div>
+		<p id="search-error"></p>
 		<div id="product-info"></div>
 		<script src="main.js"></script>
 	</body>

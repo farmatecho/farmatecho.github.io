@@ -2,6 +2,10 @@ body {
 	margin: 0px;
 }
 
+header {
+	position: relative;
+}
+
 #logo-text {
 	font-family: Garamond;
 	font-size: 75px;
@@ -18,7 +22,40 @@ body {
 
 #search {
 	position: absolute;
-	right: 0px;
+	right: 30px;
+	bottom: 10px;
+}
+
+#search-bar {
+	width: 200px;
+	height: 25px;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 5px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 1px;
+}
+
+#search-button {
+	background-color: rgb(150, 200, 255);
+	border: 2px outset rgb(75, 125, 255);
+	border-radius: 2px;
+	padding: 5px;
+	font-size: 15px;
+	font-family: Arial;
+	transition: background-color 250ms;
+	outline: none;
+}
+
+#search-button:hover {
+	background-color: rgb(125, 175, 255);
+}
+
+#search-button:active {
+	background-color: rgb(100, 150, 255);
 }
 
 #home-link {
@@ -49,13 +86,14 @@ body {
 	font-size: 15px;
 	font-family: Arial;
 	transition: background-color 250ms;
+	outline: none;
 }
 
 .product button:hover {
 	background-color: rgb(125, 175, 255);
 }
 
-.product button:focus {
+.product button:active {
 	background-color: rgb(100, 150, 255);
 }
 
