@@ -13,20 +13,20 @@ searchButton.addEventListener("click", function(e) {
 
 var products = [
 	new product({
-		name: "Los Antibioticos",
+		name: "Los antibioticos de amarillo",
 		imgSrc: "logo.png",
 		price: 50
 	}),
 	new product({
-		name: "Antibioticos",
+		name: "Antibioticos muy buen",
 		price: 40
 	}),
 	new product({
-		name: "Antibioticos",
+		name: "Antibioticos de barato",
 		price: 16
 	}),
 	new product({
-		name: "Apósito adhesivo",
+		name: "Paquete de 20 con apósito adhesivo",
 		price: 4
 	}),
 	new product({
@@ -110,9 +110,12 @@ function updateProducts() {
 
 		var buyButton = document.createElement("button");
 		buyButton.innerHTML = "Compra";
-		buyButton.addEventListener("click", function() {
-			productsDiv.style.display = "none";
-		});
+		(function() {
+			var productId = productsDisplayed[i];
+			buyButton.addEventListener("click", function() {
+				window.location.href = window.location.origin + "/product/index.html?id=" + productId;
+			});
+		}())
 		productDiv.appendChild(buyButton);
 
 		var price = document.createElement("p");
