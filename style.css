@@ -7,9 +7,9 @@
 .product {
 	position: relative;
 	background-color: lightgray;
-	margin: 5px;
+	margin: 0.3%;
 	height: 150px;
-	flex: 1 1 300px;
+	flex: 0 0 24.3%;
 	z-index: 0;
 }
 

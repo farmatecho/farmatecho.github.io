@@ -13,20 +13,20 @@ searchButton.addEventListener("click", function(e) {
 
 var products = [
 	new product({
-		name: "Los antibioticos de amarillo",
+		name: "Antibioticos",
 		imgSrc: "logo.png",
 		price: 50
 	}),
 	new product({
-		name: "Antibioticos muy buen",
+		name: "Spray nasal",
 		price: 40
 	}),
 	new product({
-		name: "Antibioticos de barato",
+		name: "Mascarillas faciales",
 		price: 16
 	}),
 	new product({
-		name: "Paquete de 20 con apósito adhesivo",
+		name: "Apósitos adhesivos", // Paquete de 20
 		price: 4
 	}),
 	new product({
