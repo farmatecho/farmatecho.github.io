@@ -13,9 +13,9 @@ searchButton.addEventListener("click", function(e) {
 
 var products = [
 	new product({
-		name: "Antibioticos",
-		imgSrc: "logo.png",
-		price: 50
+		name: "Ungüento antibiótico triple",
+		imgSrc: "images/0.png",
+		price: 7
 	}),
 	new product({
 		name: "Spray nasal",
@@ -26,7 +26,8 @@ var products = [
 		price: 16
 	}),
 	new product({
-		name: "Apósitos adhesivos", // Paquete de 20
+		name: "Apósitos adhesivos",
+		imgSrc: "images/3.png",
 		price: 4
 	}),
 	new product({

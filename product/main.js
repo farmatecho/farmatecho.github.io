@@ -1,21 +1,31 @@
 var products = [
 	new product({
-		name: "Los antibioticos de amarillo",
-		imgSrc: "logo.png",
-		price: 50
+		name: "Ungüento antibiótico triple",
+		imgSrc: "images/0.png",
+		price: 7,
+		description:
+`El ungüento antibiótico triple es extremadamente efectivos y opera en solo 2 días.`
 	}),
 	new product({
 		name: "Antibioticos muy buen",
-		price: 40
+		price: 420
 	}),
 	new product({
 		name: "Antibioticos de barato",
-		price: 16
+		price: 69
 	}),
 	new product({
-		name: "Paquete de 20 con apósito adhesivo",
+		name: "Apósitos adhesivos",
 		price: 4,
-		description: `Solo cuesta 20 centavos por apósito adhesivo. ¡Son los más baratos apósitos adhesivos en España!`
+		imgSrc: "images/3.png",
+		description: 
+`Contiene 20 piezas.
+
+Solo cuesta 20 centavos por apósito adhesivo. ¡Son los más baratos apósitos adhesivos en España!
+
+¡Ahora con súper fuerte adhesivo que dure todo el dia!
+
+¡Compra ahora!`
 	}),
 	new product({
 		name: "Nada mas",
