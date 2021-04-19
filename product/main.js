@@ -4,15 +4,26 @@ var products = [
 		imgSrc: "images/0.png",
 		price: 7,
 		description:
-`El ungüento antibiótico triple es extremadamente efectivos y opera en solo 2 días.`
+`El ungüento antibiótico triple es extremadamente efectivos y opera en solo 2 días.
+Puede tratar todas las infecciones completamente sin efectos secundarios.`
 	}),
 	new product({
-		name: "Antibioticos muy buen",
-		price: 420
+		name: "Spray nasal",
+		imgSrc: "images/1.png",
+		description:
+`Este spray nasal es a partir de los 3 años.
+
+Es muy fuerte, funciona en 5 minutos y no es adictivo.
+Contiene 20 ml y es suficiente para 40 usos.`,
+		price: 5
 	}),
 	new product({
-		name: "Antibioticos de barato",
-		price: 69
+		name: "Mascarilla facial",
+		imgSrc: "images/2.png",
+		price: 8,
+		description:
+`Una mascarilla facial con olor a pepino.
+Te da una piel muy suave y hermosa.`
 	}),
 	new product({
 		name: "Apósitos adhesivos",
@@ -28,23 +39,8 @@ Solo cuesta 20 centavos por apósito adhesivo. ¡Son los más baratos apósitos 
 ¡Compra ahora!`
 	}),
 	new product({
-		name: "Nada mas",
-		price: 0
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
+		name: "Fortnite",
+		imgSrc: "images/fortnite.png"
 	})
 ];
 

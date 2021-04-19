@@ -19,35 +19,18 @@ var products = [
 	}),
 	new product({
 		name: "Spray nasal",
-		price: 40
+		imgSrc: "images/1.png",
+		price: 5
 	}),
 	new product({
-		name: "Mascarillas faciales",
-		price: 16
+		name: "Mascarilla facial",
+		imgSrc: "images/2.png",
+		price: 8
 	}),
 	new product({
 		name: "Apósitos adhesivos",
 		imgSrc: "images/3.png",
 		price: 4
-	}),
-	new product({
-		name: "Nada mas",
-		price: 0
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
-	}),
-	new product({
-		name: "Nada mas"
 	})
 ];
 
