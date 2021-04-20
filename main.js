@@ -13,7 +13,7 @@ searchButton.addEventListener("click", function(e) {
 
 var products = [
 	new product({
-		name: "Ungüento antibiótico triple",
+		name: "Ungüento antibiótico",
 		imgSrc: "images/0.png",
 		price: 7
 	}),
@@ -30,6 +30,11 @@ var products = [
 	new product({
 		name: "Apósitos adhesivos",
 		imgSrc: "images/3.png",
+		price: 4
+	}),
+	new product({
+		name: "Mascarillas",
+		imgSrc: "images/4.png",
 		price: 4
 	})
 ];

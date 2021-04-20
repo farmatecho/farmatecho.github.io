@@ -19,6 +19,7 @@
 }
 
 .product button {
+	cursor: pointer;
 	background-color: rgb(150, 200, 255);
 	border: 2px outset rgb(75, 125, 255);
 	border-radius: 4px;

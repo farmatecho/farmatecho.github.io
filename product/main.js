@@ -1,10 +1,10 @@
 var products = [
 	new product({
-		name: "Ungüento antibiótico triple",
+		name: "Ungüento antibiótico",
 		imgSrc: "images/0.png",
 		price: 7,
 		description:
-`El ungüento antibiótico triple es extremadamente efectivos y opera en solo 2 días.
+`El ungüento antibiótico es extremadamente efectivos y opera en solo 2 días.
 Puede tratar todas las infecciones completamente sin efectos secundarios.`
 	}),
 	new product({
@@ -23,7 +23,11 @@ Contiene 20 ml y es suficiente para 40 usos.`,
 		price: 8,
 		description:
 `Una mascarilla facial con olor a pepino.
-Te da una piel muy suave y hermosa.`
+Te da una piel muy suave y hermosa.
+
+Tiene muy alta calidad a bajo precio.
+
+Úselo diariamente por hasta 2 semanas.`
 	}),
 	new product({
 		name: "Apósitos adhesivos",
@@ -39,8 +43,21 @@ Solo cuesta 20 centavos por apósito adhesivo. ¡Son los más baratos apósitos 
 ¡Compra ahora!`
 	}),
 	new product({
+		name: "Mascarillas",
+		imgSrc: "images/4.png",
+		price: 4,
+		description:
+`Un paquete de 15 mascarillas.
+
+Proporciona una protección perfecta contra bacterias y virus.
+Muy bueno para prevenir el coronavirus y otras enfermedades.`
+	}),
+	new product({
 		name: "Fortnite",
-		imgSrc: "images/fortnite.png"
+		imgSrc: "images/fortnite.png",
+		description: 
+`Fortnite pasa de batalla.`,
+		price: "950 V-"
 	})
 ];
 
