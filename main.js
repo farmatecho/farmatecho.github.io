@@ -14,28 +14,53 @@ searchButton.addEventListener("click", function(e) {
 var products = [
 	new product({
 		name: "Ungüento antibiótico",
-		imgSrc: "images/0.png",
+		imgSrc: "images/0.jpg",
 		price: 7
 	}),
 	new product({
 		name: "Spray nasal",
-		imgSrc: "images/1.png",
+		imgSrc: "images/1.jpg",
 		price: 5
 	}),
 	new product({
 		name: "Mascarilla facial",
-		imgSrc: "images/2.png",
+		imgSrc: "images/2.jpg",
 		price: 8
 	}),
 	new product({
 		name: "Apósitos adhesivos",
-		imgSrc: "images/3.png",
+		imgSrc: "images/3.jpg",
 		price: 4
 	}),
 	new product({
 		name: "Mascarillas",
-		imgSrc: "images/4.png",
+		imgSrc: "images/4.jpg",
 		price: 4
+	}),
+	new product({
+		name: "Pasta dental",
+		imgSrc: "images/5.jpg",
+		price: 2.5
+	}),
+	new product({
+		name: "Protector solar",
+		imgSrc: "images/6.jpg",
+		price: 4
+	}),
+	new product({
+		name: "Alcohol de mano",
+		imgSrc: "images/7.jpg",
+		price: 6
+	}),
+	new product({
+		name: "Marrón sin sol",
+		imgSrc: "images/8.jpg",
+		price: 6
+	}),
+	new product({
+		name: "Cepillo de dientes",
+		imgSrc: "images/9.jpg",
+		price: 2
 	})
 ];
 

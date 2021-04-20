@@ -1,7 +1,7 @@
 var products = [
 	new product({
 		name: "Ungüento antibiótico",
-		imgSrc: "images/0.png",
+		imgSrc: "images/0.jpg",
 		price: 7,
 		description:
 `El ungüento antibiótico es extremadamente efectivos y opera en solo 2 días.
@@ -9,7 +9,7 @@ Puede tratar todas las infecciones completamente sin efectos secundarios.`
 	}),
 	new product({
 		name: "Spray nasal",
-		imgSrc: "images/1.png",
+		imgSrc: "images/1.jpg",
 		description:
 `Este spray nasal es a partir de los 3 años.
 
@@ -19,7 +19,7 @@ Contiene 20 ml y es suficiente para 40 usos.`,
 	}),
 	new product({
 		name: "Mascarilla facial",
-		imgSrc: "images/2.png",
+		imgSrc: "images/2.jpg",
 		price: 8,
 		description:
 `Una mascarilla facial con olor a pepino.
@@ -32,7 +32,7 @@ Tiene muy alta calidad a bajo precio.
 	new product({
 		name: "Apósitos adhesivos",
 		price: 4,
-		imgSrc: "images/3.png",
+		imgSrc: "images/3.jpg",
 		description: 
 `Contiene 20 piezas.
 
@@ -44,7 +44,7 @@ Solo cuesta 20 centavos por apósito adhesivo. ¡Son los más baratos apósitos 
 	}),
 	new product({
 		name: "Mascarillas",
-		imgSrc: "images/4.png",
+		imgSrc: "images/4.jpg",
 		price: 4,
 		description:
 `Un paquete de 15 mascarillas.
@@ -53,8 +53,47 @@ Proporciona una protección perfecta contra bacterias y virus.
 Muy bueno para prevenir el coronavirus y otras enfermedades.`
 	}),
 	new product({
+		name: "Pasta dental",
+		imgSrc: "images/5.jpg",
+		price: 2.5,
+		description:
+`Un tubo grande de pasta dental.
+
+¡Dientes más blancos después de solo una semana!`
+	}),
+	new product({
+		name: "Protector solar",
+		imgSrc: "images/6.jpg",
+		price: 4,
+		description:
+`Proporciona una protección eficaz contra la radiación UV.`
+	}),
+	new product({
+		name: "Alcohol de mano",
+		imgSrc: "images/7.jpg",
+		price: 6,
+		description:
+`Esto alcohol de mano mata el 100% de las bacterias.
+
+Es perfecto durante la pandemia de corona.`
+	}),
+	new product({
+		name: "Marrón sin sol",
+		imgSrc: "images/8.jpg",
+		price: 6,
+		description:
+`Te da una piel más oscura en solo 2 minutos.`
+	}),
+	new product({
+		name: "Cepillo de dientes",
+		imgSrc: "images/9.jpg",
+		price: 2,
+		description:
+`Si compras un cepillo de dientes junto con pasta dental, obtienes un 20% de descuento.`
+	}),
+	new product({
 		name: "Fortnite",
-		imgSrc: "images/fortnite.png",
+		imgSrc: "images/fortnite.jpg",
 		description: 
 `Fortnite pasa de batalla.`,
 		price: "950 V-"
