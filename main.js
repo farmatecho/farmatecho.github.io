@@ -13,6 +13,11 @@ searchButton.addEventListener("click", function(e) {
 
 var products = [
 	new product({
+		name: "Mascarillas",
+		imgSrc: "images/4.jpg",
+		price: 4
+	}),
+	new product({
 		name: "Ungüento antibiótico",
 		imgSrc: "images/0.jpg",
 		price: 7
@@ -30,11 +35,6 @@ var products = [
 	new product({
 		name: "Apósitos adhesivos",
 		imgSrc: "images/3.jpg",
-		price: 4
-	}),
-	new product({
-		name: "Mascarillas",
-		imgSrc: "images/4.jpg",
 		price: 4
 	}),
 	new product({
@@ -61,6 +61,26 @@ var products = [
 		name: "Cepillo de dientes",
 		imgSrc: "images/9.jpg",
 		price: 2
+	}),
+	new product({
+		name: "Crema para el acné",
+		imgSrc: "images/10.jpg",
+		price: 4
+	}),
+	new product({
+		name: "Gotas para los ojos",
+		imgSrc: "images/11.jpg",
+		price: 5
+	}),
+	new product({
+		name: "Lentes",
+		imgSrc: "images/12.jpg",
+		price: 10
+	}),
+	new product({
+		name: "Yeso",
+		imgSrc: "images/13.jpg",
+		price: 1.5
 	})
 ];
 

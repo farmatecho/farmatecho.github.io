@@ -1,5 +1,17 @@
 var products = [
 	new product({
+		name: "Mascarillas",
+		imgSrc: "images/4.jpg",
+		price: 4,
+		description:
+`Un paquete de 15 mascarillas.
+
+Proporciona una protección perfecta contra bacterias y virus.
+Muy bueno para prevenir el coronavirus y otras enfermedades.
+
+¡Si compras unas mascarillas junto con alcohol de mano, obtienes un 50% de descuento en ambos productos!`
+	}),
+	new product({
 		name: "Ungüento antibiótico",
 		imgSrc: "images/0.jpg",
 		price: 7,
@@ -43,16 +55,6 @@ Solo cuesta 20 centavos por apósito adhesivo. ¡Son los más baratos apósitos 
 ¡Compra ahora!`
 	}),
 	new product({
-		name: "Mascarillas",
-		imgSrc: "images/4.jpg",
-		price: 4,
-		description:
-`Un paquete de 15 mascarillas.
-
-Proporciona una protección perfecta contra bacterias y virus.
-Muy bueno para prevenir el coronavirus y otras enfermedades.`
-	}),
-	new product({
 		name: "Pasta dental",
 		imgSrc: "images/5.jpg",
 		price: 2.5,
@@ -66,7 +68,7 @@ Muy bueno para prevenir el coronavirus y otras enfermedades.`
 		imgSrc: "images/6.jpg",
 		price: 4,
 		description:
-`Proporciona una protección eficaz contra la radiación UV.`
+`Proporciona una protección eficaz contra la radiación UV. Es muy suave con la piel comparado con otras marcas.`
 	}),
 	new product({
 		name: "Alcohol de mano",
@@ -90,6 +92,40 @@ Es perfecto durante la pandemia de corona.`
 		price: 2,
 		description:
 `Si compras un cepillo de dientes junto con pasta dental, obtienes un 20% de descuento.`
+	}),
+	new product({
+		name: "Crema para el acné",
+		imgSrc: "images/10.jpg",
+		price: 4,
+		description: 
+`Proporciona un tratamiento eficaz y de acción muy rápida del acné.`
+	}),
+	new product({
+		name: "Gotas para los ojos",
+		imgSrc: "images/11.jpg",
+		price: 5,
+		description: 
+`Si siente cansancio en los ojos y le pica, puede ser porque están secos. 
+
+Tenemos gotas para los ojos que pueden aliviar las molestias.`
+	}),
+	new product({
+		name: "Lentes",
+		imgSrc: "images/12.jpg",
+		price: 10,
+		description: 
+`Estos lentes estan muy facil de usar y estan muy cómodo.
+
+Ayudan con la miopía y con la hipermetropía.`
+	}),
+	new product({
+		name: "Yeso",
+		imgSrc: "images/13.jpg",
+		price: 1.5,
+		description: 
+`Se solidifica muy rápidamente, solo en 5 minutos.
+
+Es muy duradero y nunca se agrieta`
 	}),
 	new product({
 		name: "Fortnite",
