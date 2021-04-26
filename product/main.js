@@ -164,12 +164,58 @@ prevButton.addEventListener("click", function() {
 	productName.innerHTML = product.name;
 	productName.className = "name";
 	productInfo.appendChild(productName);
-
+	
+	var div = document.createElement("div");
+	
 	var price = document.createElement("p");
 	price.className = "price";
 	price.innerHTML = product.price + "€";
-	productInfo.appendChild(price);
-
+	div.appendChild(price);
+	
+	var loop = null;
+	var buyButton = document.createElement("button");
+	buyButton.innerHTML = "Compra";
+	buyButton.addEventListener("click", function() {
+		var loading = document.getElementById("loading-bar");
+		if(loading == undefined) {
+			var loading = document.getElementById("loaded");
+			if(loading == undefined) {
+				loading = document.createElement("div");
+				loading.id = "loading-bar";
+				div.appendChild(loading);
+			}
+		}
+		if(loop != null) {
+			clearInterval(loop);
+			loop = null;
+		}
+		var a = 0;
+		var s = 0;
+		var counter = 0;
+		loop = setInterval(function() {
+			if(counter % 10 == 0) {
+				a = (Math.random() - 0.5) * 0.2 + counter / 60 + 0.2;
+			}
+			s = (s / 10 * 9) + a / 10;
+			loading.style.setProperty("--percentage", Math.max(0, Math.min(1, s)));
+			counter++;
+			if(counter >= 75) {
+				loading.style.setProperty("--percentage", 1);
+				loading.id = "loaded";
+				loading.innerHTML = "<p>¡Gracias por comprar!</p>";
+				loading.
+				clearInterval(loop);
+				loop = null;
+			}
+		}, 30);
+	});
+	div.appendChild(buyButton);
+	
+	productInfo.appendChild(div);
+	
+	var br = document.createElement("br");
+	productInfo.appendChild(br);
+	
 	var image = document.createElement("img");
 	image.src = "/" + product.imgSrc;
 	productInfo.appendChild(image);
@@ -188,22 +234,18 @@ prevButton.addEventListener("click", function() {
 
 		var productDiv = document.createElement("div");
 		productDiv.className = "product";
+		(function() {
+			var productId = i;
+			productDiv.addEventListener("click", function() {
+				window.location.href = window.location.origin + "/product/index.html?id=" + productId;
+			});
+		}())
 		productsDiv.appendChild(productDiv);
 
 		var productName = document.createElement("p");
 		productName.innerHTML = product.name;
 		productName.className = "name";
 		productDiv.appendChild(productName);
-
-		var buyButton = document.createElement("button");
-		buyButton.innerHTML = "Compra";
-		(function() {
-			var productId = i;
-			buyButton.addEventListener("click", function() {
-				window.location.href = window.location.origin + "/product/index.html?id=" + productId;
-			});
-		}())
-		productDiv.appendChild(buyButton);
 
 		var price = document.createElement("p");
 		price.className = "price";

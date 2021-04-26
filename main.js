@@ -135,22 +135,18 @@ function updateProducts() {
 
 		var productDiv = document.createElement("div");
 		productDiv.className = "product";
+		(function() {
+			var productId = productsDisplayed[i];
+			productDiv.addEventListener("click", function() {
+				window.location.href = window.location.origin + "/product/index.html?id=" + productId;
+			});
+		}())
 		productsDiv.appendChild(productDiv);
 
 		var productName = document.createElement("p");
 		productName.innerHTML = product.name;
 		productName.className = "name";
 		productDiv.appendChild(productName);
-
-		var buyButton = document.createElement("button");
-		buyButton.innerHTML = "Compra";
-		(function() {
-			var productId = productsDisplayed[i];
-			buyButton.addEventListener("click", function() {
-				window.location.href = window.location.origin + "/product/index.html?id=" + productId;
-			});
-		}())
-		productDiv.appendChild(buyButton);
 
 		var price = document.createElement("p");
 		price.className = "price";
